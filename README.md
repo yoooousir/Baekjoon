@@ -1,7 +1,13 @@
 <p align="center">
   <img src="https://velog.velcdn.com/images/jsm8460/post/4a3eebc3-e147-4db1-878f-c0789c814ac5/image.png" alt="BaekJoon Logo Image" width="300">
 </p>
-________________________________________________________________________________________________________________________________________________
-wcwp_537199의 백준 코드 저장소입니다.
 
-This repository contains wcwp_537199's solutions for Baekjoon Online Judge.
+<hr style="width:80%; margin:20px auto; border:1px solid #ccc;">
+
+<p align="center">
+  <strong>[baekjoon username]</strong>의 백준 코드 저장소입니다.
+</p>
+
+<p align="center">
+  This repository contains <strong>[baekjoon username]</strong>'s solutions for Baekjoon Online Judge.
+</p>
