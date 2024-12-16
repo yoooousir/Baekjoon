@@ -5,9 +5,9 @@
 <hr style="width:80%; margin:20px auto; border:1px solid #ccc;">
 
 <p align="center">
-  <strong>[baekjoon username]</strong>의 백준 코드 저장소입니다.
+  <strong>wcwp_537199</strong>의 백준 코드 저장소입니다.
 </p>
 
 <p align="center">
-  This repository contains <strong>[baekjoon username]</strong>'s solutions for Baekjoon Online Judge.
+  This repository contains <strong>wcwp_537199</strong>'s solutions for Baekjoon Online Judge.
 </p>
