@@ -2,31 +2,32 @@
 #include <stdlib.h>
 #include <string.h>
 
+char s[1000001];
+
 int main(){
     int n, m, i, cnt=0;
     scanf("%d %d", &n, &m);getchar();
-    
-    char* p = (char*)malloc(sizeof(char)*(2*n+1));
-    for(i=0;i<2*n;i+=2){
-        p[i]='I';
-        p[i+1]='O';
-    }
-    p[2*n]='I';
-    char* s = (char*)malloc(sizeof(char)*m);
     scanf("%s", s);
     
-    char* ptr=s;
-    while(ptr<s+(int)strlen(s)){
-        if(*ptr=='I'){
-            if(!strncmp(p, ptr, (2*n+1))){
+    int cnt_tmp=0;
+    for(i=0;i<m-2;){
+        //
+        if(s[i]=='I' && s[i+1]=='O' && s[i+2]=='I'){
+            cnt_tmp++;
+            
+            //패턴 일치 확인
+            if(cnt_tmp==n){
                 cnt++;
-                ptr+=2;
-            }
-            else{
-                ptr++;
-            }
+                cnt_tmp--;
+            } 
+            
+            i+=2; // 다음 'I' 위치로 이동
         }
-        else ptr++;
+        
+        else {
+            cnt_tmp=0; //무효
+            i++;
+        }
     }
     printf("%d\n", cnt);
     
